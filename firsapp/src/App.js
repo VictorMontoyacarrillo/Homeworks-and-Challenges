@@ -1,10 +1,13 @@
+// src/App.js
 import React from 'react';
-import FirstApp from './FirstApp';
+
+import Counter from './components/Counter'; // Asegúrate de que la ruta sea correcta
 
 const App = () => {
   return (
     <div>
-      <FirstApp />  {/* Implementamos el componente */}
+      <h1>Aplicación de Contador</h1>
+      <Counter value={10} /> {/* Puedes cambiar el valor inicial aquí */}
     </div>
   );
 };
